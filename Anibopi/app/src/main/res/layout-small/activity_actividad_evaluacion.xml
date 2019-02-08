@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actividad1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoactividad"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingTop="15dp"
+    android:paddingRight="8dp"
+    tools:context=".ActividadEvaluacion"
+    tools:ignore="MergeRootFrame">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        >
+
+        <ImageView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="0dp"
+
+            app:srcCompat="@mipmap/cuadro"
+            tools:ignore="ContentDescription" />
+
+        <!---android:onClick="eventoInfo" -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relnuevo"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="300dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/relAninal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginRight="140dp">
+
+            <ImageView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/p1"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/p2"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/tsnv3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/a2"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/a2"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relPlanta1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginRight="77dp">
+
+            <ImageView
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/a3"
+                tools:ignore="ContentDescription" />
+
+
+            <ImageView
+                android:id="@+id/tsnv8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/pimontanas"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/t8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/pimontanas"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/p3"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relPlanta2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginRight="40dp">
+
+
+            <ImageView
+                android:id="@+id/t9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/a1"
+                tools:ignore="ContentDescription" />
+
+
+            <ImageView
+                android:id="@+id/tsnv4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/pirocas"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@mipmap/pirocas"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/btnAtras"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@mipmap/btnhome"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/btnSonidoSNV"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@mipmap/btnaudio"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@mipmap/btnaudio" />
+
+        <ImageView
+            android:id="@+id/btnSonido"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@mipmap/btnaudio" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

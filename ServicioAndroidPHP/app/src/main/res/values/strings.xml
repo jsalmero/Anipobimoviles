@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ServicioAndroidPHP</string>
+
+    <string name="action_setting">Configuraciones</string>
+    <string name="inicio_app">Bienvenido</string>
+    <string name="boton_guardar">Guardar</string>
+</resources>

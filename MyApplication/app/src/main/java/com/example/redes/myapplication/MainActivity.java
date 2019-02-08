@@ -7,10 +7,14 @@ import android.widget.TextView;
  public class MainActivity extends AppCompatActivity {
      int numero10000 = 1000;
  TextView resultado;
-    @Override
+     private boolean flat;
+
+
+     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        resultado = (TextView) findViewById(R.id.txtResultado);
 
     }
 
@@ -18,10 +22,10 @@ import android.widget.TextView;
          int numero10000 =1000;
          for(int i=1; i<= 1000; i++){
 
-             return = findViewById(R.id.txtResultado);
+
 
          }
-         return super.isLocalVoiceInteractionSupported();
+         resultado.setText();
      }
 
 }

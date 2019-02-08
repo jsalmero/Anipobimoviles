@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actividad1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="15dp"
+    tools:context=".Inicio"
+    android:background="@drawable/inicio"
+    android:orientation="horizontal"
+    tools:ignore="MergeRootFrame"
+    >
+
+    <ImageView
+        android:id="@+id/btnInicio"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@mipmap/btninicio"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/btnInfo"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@mipmap/btninfo"
+
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/btnSalir"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@mipmap/btnsalir"
+            android:layout_marginTop="0dp"
+            tools:ignore="ContentDescription"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
+

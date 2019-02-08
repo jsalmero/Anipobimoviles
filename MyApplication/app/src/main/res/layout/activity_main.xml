@@ -10,10 +10,23 @@
         android:id="@+id/txtResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtxtNumero"
+        android:layout_below="@+id/edtxtNumero"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="54dp"
+        android:background="#3F51B5"
+        android:text="CALCULAR"
+        android:textColor="#FFFFFF" />
+
 
 </android.support.constraint.ConstraintLayout>
